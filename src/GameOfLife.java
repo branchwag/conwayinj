@@ -7,7 +7,7 @@ import java.awt.event.MouseEvent;
 
 public class GameOfLife extends JFrame {
 	
-	private static final int GRID_SIZE = 50;
+	private static final int GRID_SIZE = 25;
 	private static final int CELL_SIZE = 15;
 	private boolean[][] grid;
 	private JPanel gridPanel;
